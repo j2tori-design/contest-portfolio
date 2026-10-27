@@ -1,0 +1,14 @@
+# Animal_Shelter_Analytics_최종_논문용.ipynb 검증 환경 (Python 3.12.7, Windows 11)
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+lightgbm==4.6.0
+xgboost==3.4.1
+imbalanced-learn==0.12.3
+shap==0.50.0
+matplotlib==3.9.2
+# 노트북 일괄 실행용 (run_final.py)
+nbformat==5.10.4
+nbclient==0.8.0
+ipykernel==6.31.0

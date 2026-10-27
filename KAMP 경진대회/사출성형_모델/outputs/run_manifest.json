@@ -1,0 +1,56 @@
+{
+  "status": "done",
+  "started": "2026-10-05T21:05:24",
+  "finished": "2026-10-05T22:27:14",
+  "runtime_sec": 3514,
+  "mode": "full",
+  "run_extra": true,
+  "config": {
+    "SEED": 42,
+    "N_SPLITS": 5,
+    "N_REPEATS": 5,
+    "TEST_FRAC": 0.2
+  },
+  "environment": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "scipy": "1.13.1",
+    "lightgbm": "4.6.0",
+    "xgboost": "3.4.1",
+    "catboost": "1.2.10",
+    "imbalanced-learn": "0.12.3",
+    "shap": "0.50.0",
+    "matplotlib": "3.9.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.4.2"
+  },
+  "input_hashes": {
+    "data/moldset_labeled_cn7.csv": "58f03bbc2961567b",
+    "data/moldset_labeled_rg3.csv": "284495f95345a25c",
+    "data/moldset_unlabeled_cn7.csv": "16355ba6418a165d",
+    "data/moldset_unlabeled_rg3.csv": "c636cecdf2a58996",
+    "src/__init__.py": "e3b0c44298fc1c14",
+    "src/config.py": "28079c8ef1341d3a",
+    "src/data.py": "adfbee839299fb39",
+    "src/evaluate.py": "4087cd011e8f22a4",
+    "src/experiments.py": "2745ad2137d44ca7",
+    "src/insights.py": "a3ff6788f1801207",
+    "src/models.py": "14d1b94f5cdb306d",
+    "run_all.py": "1cc46343acfd669c"
+  },
+  "steps": [
+    "1 진단",
+    "2 분할·누수 점검",
+    "3 모델 비교 CV",
+    "4 최종모델 선정·학습",
+    "5 확률보정",
+    "6 테스트 추론",
+    "7 OOF 판정 관점",
+    "8 현장 분석",
+    "9 부가 실험"
+  ],
+  "note": "1~8단계와 9단계를 같은 코드로 나눠 실행함 (runtime_sec 은 두 실행의 합)"
+}
