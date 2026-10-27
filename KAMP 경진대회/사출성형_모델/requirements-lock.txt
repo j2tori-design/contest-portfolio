@@ -1,0 +1,16 @@
+# Exact versions used to produce outputs/ (Python 3.12.7, Anaconda, Windows 11)
+# Usage: python -m venv .venv && .venv\Scripts\activate && pip install -r requirements-lock.txt
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.13.1
+joblib==1.4.2
+lightgbm==4.6.0
+xgboost==3.4.1
+catboost==1.2.10
+imbalanced-learn==0.12.3
+shap==0.50.0
+matplotlib==3.9.2
+seaborn==0.13.2
+nbconvert==7.16.4
+ipykernel==6.31.0
