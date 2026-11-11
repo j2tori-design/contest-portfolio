@@ -33,3 +33,7 @@ flowchart LR
 ## 기술
 
 Python · SQL · pandas · NumPy · scikit-learn · LightGBM · XGBoost · CatBoost · SHAP · statsmodels · matplotlib · Git/GitHub · Jupyter
+
+---
+
+👤 [전건우 GitHub 프로필](https://github.com/j2tori-design)
